@@ -15,6 +15,7 @@
   --color-base-purple: hsl(275, 18%, 79%);
   --color-base-gray-dark: hsl(218, 17%, 62%);
   --color-base-blue-dark: hsl(var(--hsl), 17%, 35%);
+  --color-base-white: hsl(0, 0%, 100%);
 
   /* Font */
   --fs-heading: 4rem;
@@ -29,4 +30,34 @@
 body {
   font-family: var(--ff-texting);
   font-size: var(--fs-texting);
+
+  text-align: center;
+
+  margin: 0 auto;
+}
+
+.header {
+  background-color: var(--color-base-blue-dark);
+
+  width: 100%;
+
+  padding: 3.2rem 0;
+}
+
+.header h1 {
+  color: var(--color-base-white);
+  text-shadow: black 0px 1px 0.2em;
+
+  text-transform: uppercase;
+
+  background-color: var(--color-base-purple);
+}
+
+.header img {
+  width: clamp(13rem, 15rem + 15vw, 50rem);
+  height: clamp(13rem, 15rem + 15vw, 50rem);
+}
+
+main img {
+  display: none;
 }
