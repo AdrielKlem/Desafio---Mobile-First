@@ -5,4 +5,12 @@
 }
 
 :root {
+  font-size: 62.5%;
+
+  /* Color */
+  --color-base-gray: #eff1ff;
+  --color-base-pink: #feeafa;
+  --color-base-purple: #cbc0d3;
+  --color-base-gray-dark: #8e9aaf;
+  --color-base-blue-dark: #4a4e69;
 }
