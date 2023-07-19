@@ -34,3 +34,8 @@ main span {
   animation-fill-mode: both;
   animation-direction: reverse;
 }
+
+/* 
+Tem um bug que eu não consegui entender o que está causando isso:
+Praticamente o elemento span está começando de um direção totalmente diferente de origem, então ele acaba fazendo um movimento diagonal, em vez de reto(horizontal ou vertical).
+*/
