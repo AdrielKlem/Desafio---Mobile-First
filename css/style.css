@@ -7,10 +7,12 @@
 :root {
   font-size: 62.5%;
 
+  --hsl: 233;
+
   /* Color */
-  --color-base-gray: #eff1ff;
-  --color-base-pink: #feeafa;
-  --color-base-purple: #cbc0d3;
-  --color-base-gray-dark: #8e9aaf;
-  --color-base-blue-dark: #4a4e69;
+  --color-base-gray: hsl(var(--hsl), 100%, 97%);
+  --color-base-pink: hsl(312, 91%, 96%);
+  --color-base-purple: hsl(275, 18%, 79%);
+  --color-base-gray-dark: hsl(218, 17%, 62%);
+  --color-base-blue-dark: hsl(var(--hsl), 17%, 35%);
 }
