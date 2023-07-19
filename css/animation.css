@@ -1,0 +1,36 @@
+@keyframes appear-logo {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(calc(10rem));
+  }
+}
+
+@keyframes appear-card {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(calc(10rem));
+  }
+}
+
+main .card {
+  animation-name: appear-logo;
+  animation-duration: 1.5s;
+  animation-fill-mode: backwards;
+  animation-direction: reverse;
+}
+
+main span {
+  animation-name: appear-card;
+  animation-duration: 1.5s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  animation-direction: reverse;
+}
