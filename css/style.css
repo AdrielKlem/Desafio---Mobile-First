@@ -80,8 +80,36 @@ main .describe {
   font-weight: 400;
   line-height: 34px;
   letter-spacing: 1px;
+
+  margin-bottom: 6.4rem;
 }
 
 main img {
-  display: none;
+  /* display: none; */
+
+  width: 100%;
+
+  position: relative;
+}
+
+main span {
+  background: var(--color-base-pink);
+
+  width: 112px;
+  height: 35px;
+
+  padding: 1rem;
+
+  border: 2px solid black;
+  border-radius: 20px;
+
+  /* Text */
+  font-family: var(--ff-special);
+
+  color: var(--color-base-blue-dark);
+
+  font-size: var(--fs-card);
+  font-weight: 400;
+  line-height: 3.4rem; /* 170% */
+  letter-spacing: 1px;
 }
