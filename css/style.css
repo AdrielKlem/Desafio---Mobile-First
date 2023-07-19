@@ -7,14 +7,18 @@
 :root {
   font-size: 62.5%;
 
-  --hsl: 233;
+  --hsl-1: 233;
+  --hsl-2: 275;
 
   /* Color */
-  --color-base-gray: hsl(var(--hsl), 100%, 97%);
+  --color-base-gray: hsl(var(--hsl-1), 100%, 97%);
   --color-base-pink: hsl(312, 91%, 96%);
-  --color-base-purple: hsl(275, 18%, 79%);
+  --color-base-purple: hsl(var(--hsl-2), 18%, 79%);
+
   --color-base-gray-dark: hsl(218, 17%, 62%);
-  --color-base-blue-dark: hsl(var(--hsl), 17%, 35%);
+  --color-base-purple-dark: hsl(var(--hsl-2), 84%, 12%);
+  --color-base-blue-dark: hsl(var(--hsl-1), 17%, 35%);
+
   --color-base-white: hsl(0, 0%, 100%);
 
   /* Font */
@@ -51,11 +55,31 @@ body {
   text-transform: uppercase;
 
   background-color: var(--color-base-purple);
+
+  margin-bottom: 1.6rem;
 }
 
 .header img {
   width: clamp(13rem, 15rem + 15vw, 50rem);
   height: clamp(13rem, 15rem + 15vw, 50rem);
+
+  margin-bottom: 2.4rem;
+}
+
+main {
+  background-color: var(--color-base-gray);
+
+  padding: 2.4rem 3.2rem;
+}
+
+main .describe {
+  color: var(--color-base-purple-dark);
+
+  font-size: var(--fs-card);
+
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 1px;
 }
 
 main img {
