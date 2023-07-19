@@ -15,4 +15,18 @@
   --color-base-purple: hsl(275, 18%, 79%);
   --color-base-gray-dark: hsl(218, 17%, 62%);
   --color-base-blue-dark: hsl(var(--hsl), 17%, 35%);
+
+  /* Font */
+  --fs-heading: 4rem;
+  --fs-texting: 1.6rem;
+  --fs-card: 2rem;
+
+  /* Font-Family */
+  --ff-texting: "Palanquin", sans-serif;
+  --ff-special: "Staatliches", cursive;
+}
+
+body {
+  font-family: var(--ff-texting);
+  font-size: var(--fs-texting);
 }
