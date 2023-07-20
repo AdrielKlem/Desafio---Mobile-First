@@ -66,22 +66,24 @@ body {
   margin-bottom: 2.4rem;
 }
 
-main {
+header .describe {
   background-color: var(--color-base-gray);
 
-  padding: 2.4rem 3.2rem;
-}
-
-main .describe {
   color: var(--color-base-purple-dark);
 
-  font-size: var(--fs-card);
+  font-size: var(--fs-texting);
 
   font-weight: 400;
   line-height: 34px;
   letter-spacing: 1px;
 
-  margin-bottom: 6.4rem;
+  padding: 2.4rem 3.2rem;
+}
+
+main {
+  background-color: var(--color-base-gray);
+
+  padding: 2.4rem 3.2rem;
 }
 
 main img {
