@@ -77,13 +77,18 @@ header .describe {
   line-height: 34px;
   letter-spacing: 1px;
 
-  padding: 2.4rem 3.2rem;
+  padding: 2.4rem;
 }
 
 main {
   background-color: var(--color-base-gray);
 
   padding: 2.4rem 3.2rem;
+}
+
+main .card-wrapper {
+  display: grid;
+  gap: 2rem;
 }
 
 main img {
